@@ -216,7 +216,7 @@ footer {
 aside {
     display: inline-block;
     vertical-align: top;
-    width: 25%;
+    width: 22%;
     padding-top: 15px;
     margin: 15px 0;
     background: whitesmoke;
@@ -230,7 +230,7 @@ aside {
 .client_pic > .img_center {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
 }
 
 .pro_title #right_name {
@@ -282,7 +282,7 @@ aside {
 }
 
 .pro_upper {
-    width: 325px;
+    width: 210px;
     position: relative;
     bottom: -30px;
 }
@@ -294,7 +294,7 @@ aside {
 }
 
 .pro_middle {
-    width: 325px;
+    width: 210px;
     position: relative;
     bottom: -40px;
 }
@@ -358,11 +358,11 @@ aside {
 
 .fa {
     padding: 20px;
-    font-size: 30px;
-    width: 75px;
+    font-size: 15px;
+    width: 55px;
     text-align: center;
     text-decoration: none;
-    margin: 20px 0px;
+    margin: 15px 0px;
     border-radius: 50%;
 }
 
