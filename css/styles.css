@@ -23,6 +23,7 @@ header {
 .logo_title {
     display: inline-block;
     vertical-align: middle;
+    padding-left: 20px;
 }
 
 .logo_img {
@@ -69,30 +70,34 @@ header {
     padding: 10px;
 }
 
+.content_area {
+    display: block;
+}
+
 .content {
     display: inline-block;
+    position: relative;
+    padding-top: 15px;
     padding-left: 140px;
-    padding-top: 35px;
-    position: absolute;
-    top: 155px;
+    width: calc(100% - 450px);
 }
 
 .col_1 {
-    width: 56%;
+    width: 50%;
     padding: 5px;
 }
 
 .col {
-    float: left;
-    width: 28%;
-    padding: 5px;
+    display: inline-block;
+    padding-left: 10px;
+    width: 42%;
 }
 
-.row::after {
+/* .row::after {
     content: "";
     clear: both;
     display: table;
-}
+} */
 
 /* .content {
     padding: 5.5rem;
@@ -157,8 +162,6 @@ header {
     bottom: -10px;
 }
 
-
-
 footer {
     display: inline-block;
     position: relative;
@@ -212,10 +215,10 @@ footer {
 
 aside {
     display: inline-block;
-    position: relative;
-    right: -870px;
-    top: 82px;
-    height: 1320px;
+    vertical-align: top;
+    width: 25%;
+    padding-top: 15px;
+    margin: 15px 0;
     background: whitesmoke;
 }
 
@@ -225,11 +228,9 @@ aside {
 }
 
 .client_pic > .img_center {
-    position: relative;
-    top: 30px;
-    left: 47px;
-    width: 330px;
-    height: 300px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
 }
 
 .pro_title #right_name {
