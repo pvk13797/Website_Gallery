@@ -49,12 +49,19 @@ header {
     font-weight: bold;
 }
 
-.header_menu {
+.top_nav {
     display: inline-block;
     position: relative;
     text-align: right;
     width: calc(100% - 260px);
 }
+
+/* .header_menu {
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    width: calc(100% - 260px);
+} */
 
 .header_menu > .btn_clr {
     border-radius: 30px;
@@ -72,6 +79,8 @@ header {
 
 .content_area {
     display: block;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .content {
@@ -83,14 +92,18 @@ header {
 }
 
 .col_1 {
-    width: 50%;
+    width: 100%;
     padding: 5px;
 }
 
 .col {
     display: inline-block;
     padding-left: 10px;
-    width: 42%;
+    width: 46%;
+}
+
+.col img {
+    width: 100%;
 }
 
 /* .row::after {
@@ -162,16 +175,6 @@ header {
     bottom: -10px;
 }
 
-footer {
-    display: inline-block;
-    position: relative;
-    bottom: -290px;
-    width: 100%;
-    padding: 3px;
-    background-color: rgb(50, 53, 56);
-    text-align: center;
-}
-
 /* .container {
     display: flex;
     align-items: center;
@@ -233,6 +236,13 @@ aside {
     width: 70%;
 }
 
+.pro_title {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    padding-left: 42px;
+}
+
 .pro_title #right_name {
     font-weight: bold;
     font-size: large;
@@ -253,6 +263,19 @@ aside {
     font-size: smaller;
 }
 
+.pro_upper {
+    display: block;
+    position: relative;
+    width: calc(100% - 85px);
+}
+
+.pro_place {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    padding-left: 42px;
+}
+
 .pro_place #right_city {
     font-weight: bold;
     font-size: large;
@@ -263,50 +286,48 @@ aside {
     font-size: larger;
 }
 
-.pro_details p{
-    padding-right: 60px;
-    font-size: small;
-    display: block;
-}
-
-.pro_details #last_img {
-    position: relative;
-    left: 70px;
-    bottom: -10px;
-}
-
-.pro_title {
-    position: relative;
-    right: -45px;
-    bottom: -20px;
-}
-
-.pro_upper {
-    width: 210px;
-    position: relative;
-    bottom: -30px;
-}
-
-.pro_place {
-    position: relative;
-    right: -45px;
-    bottom: -35px;
-}
-
 .pro_middle {
-    width: 210px;
+    display: block;
     position: relative;
-    bottom: -40px;
+    width: calc(100% - 85px);
 }
 
 .pro_details {
+    display: inline-block;
     position: relative;
-    right: -45px;
-    bottom: -45px;
+    text-align: left;
+    padding-left: 42px;
+}
+
+.pro_details p{
+    padding-right: 30px;
+    font-size: small;
 }
 
 .pro_license {
+    display: inline-block;
+    position: relative;
+    padding-left: 42px;
     font-weight: bold;
+}
+
+.sponser_logo {
+    display: inline-block;
+    position: relative;
+    padding-left: 42px;
+}
+
+.info_button {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-left: 42px;
+}
+
+/* .pro_details #last_img {
+    position: relative;
+    left: 70px;
+    bottom: -10px;
 }
 
 .pro_details > .sponser_logo::after {
@@ -318,31 +339,32 @@ aside {
 .pro_details > .sponser_logo > .col_2 {
     float: left;
     width: 18%;
-}
+} */
 
-#btn_get {
+.info_button #btn_get {
     border-radius: 30px;
     border: none;
     background-color: orangered;
     padding: 10px;
     color: white;
-    width: 75%;
+    width: calc(100% - -115px);
 }
 
-#btn_visit {
+.info_button #btn_visit {
     border-radius: 30px;
     border: none;
     background-color: rgb(42, 42, 119);
     padding: 10px;
     color: white;
-    width: 75%;
+    width: calc(100% - -115px);
 }
 
 .pagination {
     display: inline-block;
     position: relative;
-    bottom: -35px;
-    left: 222px;
+    text-align: center;
+    width: calc(100% - 0px);
+    padding: 40px;
 }
 
 .pagination a {
@@ -356,15 +378,22 @@ aside {
     border-radius: 60%;
 }
 
+.social_media {
+    display: inline-block;
+    position: relative;
+    padding: 49px;
+    width: calc(100% - 0px);
+}
+
 .fa {
-    padding: 20px;
-    font-size: 15px;
-    width: 55px;
+    padding: 15px;
+    font-size: 20px;
+    width: 45px;
     text-align: center;
     text-decoration: none;
-    margin: 15px 0px;
+    margin: 10px 0px;
     border-radius: 50%;
-}
+} 
 
 .fa:hover {
     opacity: 0.7;
@@ -390,9 +419,19 @@ aside {
     color: white;
 }
 
-.footer_img {
+footer {
+    display: inline-block;
     position: relative;
-    bottom: -6px;
+    width: 100%;
+    padding: 3px;
+    background-color: rgb(50, 53, 56);
+    text-align: center;
+}
+
+.footer_img {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
 }
 
 /* .pro_name {
