@@ -92,13 +92,18 @@ header {
 }
 
 .col_1 {
+    display: inline-block;
+    position: relative;
+}
+
+.col_1 img {
     width: 100%;
-    padding: 5px;
 }
 
 .col {
     display: inline-block;
-    padding-left: 10px;
+    position: relative;
+    padding: 5px;
     width: 46%;
 }
 
@@ -363,7 +368,7 @@ aside {
     position: relative;
     text-align: center;
     width: calc(100% - 0px);
-    padding: 40px;
+    padding: 20px;
 }
 
 .pagination a {
