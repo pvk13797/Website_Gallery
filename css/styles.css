@@ -80,7 +80,7 @@ header {
 
 .content_area {
     display: block;
-    max-width: 1200px;
+    max-width: 1100px;
     padding: 30px 0;
     margin: 0 auto;
     font-size: 0px;
@@ -171,7 +171,7 @@ header {
 .caption {
     display: inline-block;
     font-weight: bold;
-    font-size: small;
+    font-size: 13px;
 }
 
 /* .container {
@@ -219,7 +219,7 @@ aside {
     display: inline-block;
     vertical-align: top;
     width: 370px;
-    padding: 20px;
+    padding: 30px;
     background: whitesmoke;
 }
 
@@ -240,22 +240,22 @@ aside {
 
 .pro_title #right_name {
     font-weight: bold;
-    font-size: large;
+    font-size: 20px;
 }
 
 .pro_title #right_company {
     font-weight: bold;
-    font-size: small;
+    font-size: 15px;
 }
 
 .pro_title #right_title {
     font-weight: normal;
-    font-size: smaller;
+    font-size: 15px;
 }
 
 .pro_title #right_knowns {
     font-weight: normal;
-    font-size: smaller;
+    font-size: 15px;
 }
 
 .pro_upper {
@@ -270,12 +270,12 @@ aside {
 
 .pro_place #right_city {
     font-weight: bold;
-    font-size: large;
+    font-size: 20px;
 }
 
 .pro_place #right_number {
     font-weight: bold;
-    font-size: larger;
+    font-size: 20px;
 }
 
 .pro_middle {
@@ -289,13 +289,14 @@ aside {
 }
 
 .pro_details p{
-    font-size: small;
+    font-size: 15px;
 }
 
 .pro_license {
     display: block;
     position: relative;
     font-weight: bold;
+    font-size: 15px;
 }
 
 .sponser_logo {
@@ -303,12 +304,14 @@ aside {
     position: relative;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .info_button {
     display: block;
     position: relative;
+    font-size: 15px;
+    padding-top: 15px;
 }
 
 /* .pro_details #last_img {
@@ -352,6 +355,7 @@ aside {
     text-align: center;
     width: calc(100% - 0px);
     padding: 20px;
+    font-size: 15px;
 }
 
 .pagination a {
@@ -368,12 +372,13 @@ aside {
 .social_media {
     display: block;
     position: relative;
+    font-size: 20px;
+    text-align: center;
 }
 
 .fa {
     padding: 15px;
-    width: 54px;
-    text-align: center;
+    width: 50px;
     text-decoration: none;
     margin: 20px 0px;
     border-radius: 50%;
