@@ -643,7 +643,17 @@ footer {
         display: none;
     }
 
-    .header_logo {
+    .logo_title {
         display: block;
+    }
+
+    .logo_title .logo_img {
+        display: block;
+        text-align: center;
+    }
+
+    .logo_title .logo_details {
+        display: block;
+        text-align: center;
     }
 }
