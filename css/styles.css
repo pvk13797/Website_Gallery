@@ -89,7 +89,7 @@ header {
 
 .content_area {
     display: block;
-    max-width: 1100px;
+    max-width: 1000px;
     padding: 30px 0;
     margin: 0 auto;
     font-size: 0px;
@@ -99,8 +99,8 @@ header {
 .content {
     display: inline-block;
     position: relative;
-    margin-right: 20px;
-    width: calc(100% - 390px);
+    margin-right: 40px;
+    width: calc(100% - 410px);
     background-color: white;
 }
 
@@ -154,7 +154,7 @@ aside {
     vertical-align: top;
     position: relative;
     width: 370px;
-    padding: 30px;
+    padding: 25px;
     background: whitesmoke;
 }
 
@@ -271,13 +271,13 @@ aside {
     position: relative;
     text-align: center;
     width: 100%;
-    margin: 30px auto;
+    margin: 12px auto;
     font-size: 15px;
 }
 
 .pagination a {
     color: black;
-    padding: 8px 16px;
+    padding: 10px 15px;
     text-decoration: none;
 }
 
