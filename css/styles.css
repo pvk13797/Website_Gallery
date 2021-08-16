@@ -301,6 +301,11 @@ aside {
     border-radius: 60%;
 }
 
+.pagination a:hover {
+    background-color: #ddd;
+    border-radius: 60%;
+}
+
 .social_media {
     display: block;
     position: relative;
@@ -368,23 +373,14 @@ footer {
 }
 
 @media screen and (max-width: 750px) {
-    .content {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    aside {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .logo_title {
-        display: inline-block;
-    }
 
     header {
         padding: 10px;
     } 
+
+    .logo_title {
+        display: inline-block;
+    }
 
     .header_menu .btn_clr, .menu_home, .menu_info {
         display: none;
@@ -396,6 +392,16 @@ footer {
         position: relative;
         color: white;
         font-size: 40px;
+    }
+
+    .content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    aside {
+        width: 100%;
+        margin: 0 auto;
     }
 
 }
