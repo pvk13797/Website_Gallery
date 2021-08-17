@@ -87,7 +87,11 @@ header {
     padding: 10px;
 }
 
-.header_menu .menu_bar {
+.header_menu a:hover {
+    background-color: rgb(156, 168, 180);
+}
+
+.menu_bar {
     display: none;
 }
 
@@ -382,16 +386,33 @@ footer {
         display: inline-block;
     }
 
-    .header_menu .btn_clr, .menu_home, .menu_info {
+    .top_nav {
         display: none;
+        position: relative;
+        width: 100%;
     }
 
-    .header_menu .menu_bar {
-        display: inline-block;
-        vertical-align: middle;
+    .header_menu {
+        display: block;
         position: relative;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .header_menu a {
+        display: block;
+        position: relative;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .menu_bar {
+        display: block;
+        float: right;
+        position: relative;
+        top: 5px;
         color: white;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .content {
