@@ -1,12 +1,10 @@
 function toggleMenu() {
     
+    const toggleMenu = document.getElementsByClassName('menu_bar')[0];
     const headerMenu = document.getElementsByClassName('top_nav')[0];
 
-    if(headerMenu.style.display === 'none') {
-        headerMenu.style.display = 'block';
-    } else {
-        headerMenu.style.display = 'none';
-    }
+    toggleMenu.classList.toggle('active');
+    headerMenu.classList.toggle('active');
 
 }
 

@@ -91,7 +91,7 @@ header {
     background-color: rgb(156, 168, 180);
 }
 
-.menu_bar {
+.toggle_bar {
     display: none;
 }
 
@@ -392,6 +392,10 @@ footer {
         width: 100%;
     }
 
+    .top_nav.active {
+        display: block;
+    }
+
     .header_menu {
         display: block;
         position: relative;
@@ -406,13 +410,23 @@ footer {
         margin: 10px auto;
     }
 
-    .menu_bar {
+    .toggle_bar {
         display: block;
         float: right;
         position: relative;
-        top: 5px;
+        top: 10px;
+        cursor: pointer;
+    }
+
+    .toggle_bar .menu_bar.active {
+        background-color: rgb(156, 168, 180);
+        border-radius: 50%;
+    }
+
+    .toggle_bar .menu_bar {
         color: white;
-        font-size: 35px;
+        font-size: 30px;
+        padding: 5px;
     }
 
     .content {
