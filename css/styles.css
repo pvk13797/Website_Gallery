@@ -1,10 +1,8 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
-}
-
-body {
-    margin: 0 auto;
 }
 
 button {
@@ -121,7 +119,7 @@ header {
     display: inline-block;
     position: relative;
     margin-right: 40px;
-    width: calc(100% - 340px);
+    width: calc(100% - 375px);
     background-color: white;
 }
 
@@ -174,7 +172,7 @@ aside {
     display: inline-block;
     vertical-align: top;
     position: relative;
-    width: 300px;
+    width: 335px;
     padding: 25px;
     margin: 0;
     background: whitesmoke;
@@ -203,17 +201,17 @@ aside {
 .pro_title #right_company {
     font-weight: bold;
     font-size: 15px;
-    margin: 10px 0;
+    margin: -7px 0;
 }
 
 .pro_title #right_title {
     font-size: 15px;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .pro_title #right_knowns {
     font-size: 15px;
-    margin: 10px 0;
+    margin: -7px 0;
 }
 
 .pro_upper {
@@ -230,6 +228,7 @@ aside {
 .pro_place #right_city {
     font-weight: bold;
     font-size: 20px;
+    margin: 20px auto;
 }
 
 .pro_place #right_number {
@@ -247,10 +246,16 @@ aside {
 .pro_details {
     display: block;
     position: relative;
+    margin: -15px auto;
+}
+
+.pro_details .head_details {
+    margin-bottom: 30px;
 }
 
 .pro_details p{
     font-size: 15px;
+    margin: 12px auto;
 }
 
 .pro_license {
@@ -258,7 +263,7 @@ aside {
     position: relative;
     font-weight: bold;
     font-size: 15px;
-    margin: 30px 0;
+    margin: 50px 0;
 }
 
 .sponser_logo {
@@ -267,6 +272,7 @@ aside {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: -20px auto;
 }
 
 .sponser_logo img {
@@ -277,7 +283,7 @@ aside {
     display: block;
     position: relative;
     font-size: 15px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .info_button #btn_get {
@@ -303,7 +309,7 @@ aside {
     position: relative;
     text-align: center;
     width: 100%;
-    margin: 12px auto;
+    margin: 13px auto;
     font-size: 15px;
 }
 
@@ -326,7 +332,7 @@ aside {
 .social_media {
     display: block;
     position: relative;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
     text-align: center;
 }
@@ -367,6 +373,7 @@ footer {
     display: inline-block;
     position: relative;
     width: 100%;
+    padding: 20px;
     background-color: rgb(50, 53, 56);
     text-align: center;
 }
@@ -413,7 +420,7 @@ footer {
         height: 100%;
         background-color: lightslategray;
         transform: translateX(100%);
-        transition: transform 0.3s;
+        transition: transform 0.5s;
     }
 
     .top_nav.active {
@@ -431,6 +438,8 @@ footer {
         display: inline-block;
         vertical-align: middle;
         position: relative;
+        padding: 20px;
+        margin-left: -10px;
     }
 
     .toggle_bar {
