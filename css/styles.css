@@ -76,7 +76,7 @@ header {
 
 .header_menu > .btn_clr {
     border-radius: 30px;
-    background-color: orangered;
+    background-color: #FF422D;
     padding: 12px 25px;
     margin-right: 10px;
     border: none;
@@ -289,7 +289,7 @@ aside {
 .info_button #btn_get {
     border-radius: 30px;
     border: none;
-    background-color: orangered;
+    background-color: #FF422D;
     padding: 20px;
     color: white;
     width: 100%;
@@ -298,7 +298,7 @@ aside {
 .info_button #btn_visit {
     border-radius: 30px;
     border: none;
-    background-color: rgb(42, 42, 119);
+    background-color: #303F5B;
     padding: 20px;
     color: white;
     width: 100%;
