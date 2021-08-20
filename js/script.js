@@ -8,8 +8,12 @@ const toggleMenu = document.getElementsByClassName('menu_bar')[0],
     });
 
     closeMenu.addEventListener("click", () => {
-        if(toggleMenu.classList.toggle("active") !== "active" && headerMenu.classList.toggle("active") !== "active") {
+        if(toggleMenu.classList.contains("active") && headerMenu.classList.contains("active")) {
             toggleMenu.classList.remove("active");
             headerMenu.classList.remove("active");
+            console.log("Menu Close");
+        }
+        else {
+            console.log("No Menus");
         }
     });
