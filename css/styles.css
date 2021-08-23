@@ -468,6 +468,10 @@ footer {
         padding: 10px 20px;
     }
 
+    .header_menu a:hover {
+        background-color: transparent;
+    }
+
     .header_menu .mobile_hr {
         display: block;
     }
