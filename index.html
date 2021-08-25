@@ -38,7 +38,8 @@
                     <hr class="mobile_hr">
                     <span class="material-icons icon_home">home</span><a class="menu_home" href="">Home</a>
                     <hr class="mobile_hr">
-                    <span class="material-icons icon_touch">touch_app</span><a class="menu_info" href="#">Get In Touch</a>
+                    <span class="material-icons icon_touch">touch_app</span><a class="menu_info" href="#">Get In
+                        Touch</a>
                 </div>
             </div>
 
@@ -53,52 +54,58 @@
 
             <div class="row">
                 <div class="col_1">
-                    <img src="image/main_1.png" alt="Image" />
+                    <img onclick="openModel();currentSlide(1)" src="image/main_1.png" id="l_img_1" alt="Image" />
                     <span class="main_caption">Natural Cleaners & Stain Removers You Already Own</span>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col" id="col_img1">
-                    <img src="image/main_2.png" alt="main_2" />
+                    <img onclick="openModel();currentSlide(2)" src="image/main_2.png" id="l_img_2" alt="main_2" />
                     <span class="caption">Nearly Half Of Offers In The United States Are Being Mode Sight Unseen</span>
                 </div>
                 <div class="col" id="col_img2">
-                    <img src="image/main_3.png" alt="main_3" />
+                    <img onclick="openModel();currentSlide(3)" src="image/main_3.png" id="l_img_3" alt="main_3" />
                     <span class="caption">Nearly Half Of Offers In The United States Are Being Mode Sight Unseen</span>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col" id="col_img1">
-                    <img class="col_img1" class="col_img1" src="image/main_4.png" alt="main_4" />
+                    <img onclick="openModel();currentSlide(4)" class="col_img1" id="l_img_4" src="image/main_4.png"
+                        alt="main_4" />
                     <span class="caption">61 Percent Of American Says Now Is A Good Time To Purchase A Home</span>
                 </div>
                 <div class="col" id="col_img2">
-                    <img class="col_img2" src="image/main_5.png" alt="main_5" />
+                    <img onclick="openModel();currentSlide(5)" class="col_img2" id="l_img_5" src="image/main_5.png"
+                        alt="main_5" />
                     <span class="caption">61 Percent Of American Says Now Is A Good Time To Purchase A Home</span>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col" id="col_img1">
-                    <img class="col_img1" src="image/main_6.png" alt="main_6" />
+                    <img onclick="openModel();currentSlide(6)" class="col_img1" id="l_img_6" src="image/main_6.png"
+                        alt="main_6" />
                     <span class="caption">Buyer Demand Driving Up Listing Prices Across The Country</span>
                 </div>
                 <div class="col" id="col_img2">
-                    <img class="col_img2" src="image/main_7.png" alt="main_7" />
+                    <img onclick="openModel();currentSlide(7)" class="col_img2" id="l_img_7" src="image/main_7.png"
+                        alt="main_7" />
                     <span class="caption">Buyer Demand Driving Up Listing Prices Across The Country</span>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col" id="col_img1">
-                    <img class="col_img1" src="image/main_8.png" alt="main_8" />
+                    <img onclick="openModel();currentSlide(8)" class="col_img1" id="l_img_8" src="image/main_8.png"
+                        alt="main_8" />
                     <span class="caption">Looking For Kitchen Design Inspiration? These Are The Hottest Trend On
                         Instagram</span>
                 </div>
                 <div class="col" id="col_img2">
-                    <img class="col_img2" src="image/main_9.png" alt="main_9" />
+                    <img onclick="openModel();currentSlide(9)" class="col_img2" id="l_img_9" src="image/main_9.png"
+                        alt="main_9" />
                     <span class="caption">Looking For Kitchen Design Inspiration? These Are The Hottest Trend On
                         Instagram</span>
                 </div>
@@ -112,7 +119,7 @@
                 <a href="#">5</a>
                 <a href="#">&rsaquo;</a>
             </div>
-            
+
         </div>
 
         <aside>
@@ -139,7 +146,7 @@
                 <p class="head_details">Here are a few key items to include
                     in your realtor bio:
                 </p>
-            
+
                 <p>- Your real estate experience</p>
                 <p>- Connection to the area you're selling
                     in</p>
@@ -154,12 +161,12 @@
             </div>
 
             <div class="sponser_logo">
-                    <img src="image/icon1.png" />
-                    <img src="image/icon2.png" />
-                    <img src="image/icon3.png" />
-                    <img src="image/icon4.png" />
+                <img src="image/icon1.png" />
+                <img src="image/icon2.png" />
+                <img src="image/icon3.png" />
+                <img src="image/icon4.png" />
             </div>
-            
+
             <div class="info_button">
                 <button id="btn_get">Get In Touch</button><br><br>
                 <button id="btn_visit">Visit Website</button>
@@ -180,6 +187,52 @@
     <footer>
         <p><img class="footer_img" src="image/icon5.png" /> &copy; 2021 Prasanna Venkat</p>
     </footer>
+
+    <!-- Gallery Preview -->
+    <div id="appear_Box" class="box">
+
+        <div class="gallery">
+            <span onclick="clickClose()" class="close">&times;</span>
+            <button id="prev" onclick="plusSlides(-1)" class="prev">&#10094;</button>
+            <button id="next" onclick="plusSlides(1)" class="next">&#10095;</button>
+            <!-- <img class="box_Img" id="img_1" width="50%"> -->
+            <div class="mySlides">
+                <img class="box_Img" src="image/main_1.png" alt="Image" width="50%" />
+            </div>
+
+            <div class="mySlides">
+                <img class="box_Img" src="image/main_2.png" alt="Image" width="50%" />
+            </div>
+
+            <div class="mySlides">
+                <img class="box_Img" src="image/main_3.png" alt="Image" width="50%" />
+            </div>
+
+            <div class="mySlides">
+                <img class="box_Img" src="image/main_4.png" alt="Image" width="50%" />
+            </div>
+
+            <div class="mySlides">
+                <img class="box_Img" src="image/main_5.png" alt="Image" width="50%" />
+            </div>
+
+            <div class="mySlides">
+                <img class="box_Img" src="image/main_6.png" alt="Image" width="50%" />
+            </div>
+
+            <div class="mySlides">
+                <img class="box_Img" src="image/main_7.png" alt="Image" width="50%" />
+            </div>
+
+            <div class="mySlides">
+                <img class="box_Img" src="image/main_8.png" alt="Image" width="50%" />
+            </div>
+
+            <div class="mySlides">
+                <img class="box_Img" src="image/main_9.png" alt="Image" width="50%" />
+            </div>
+        </div>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
